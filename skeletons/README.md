@@ -1,4 +1,4 @@
-# a skeleton bank from three complex KBQA datasets.
+# Skeleton bank from three complex KBQA datasets.
 
 
 <table>
