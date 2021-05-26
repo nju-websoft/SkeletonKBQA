@@ -12,10 +12,7 @@ Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over
         <td>code</td><td>codes</td>
     </tr>
     <tr>
-        <td>skeleton</td><td>skeleton bank</td>
-    </tr>
-    <tr>
-        <td>slides</td><td>slides and poster</td>
+        <td>skeletons</td><td>skeleton bank</td>
     </tr>
 </table>
  
