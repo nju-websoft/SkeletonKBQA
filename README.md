@@ -15,7 +15,7 @@ Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over
         <td>skeletons</td><td>skeleton bank</td>
     </tr>
 	<tr>
-        <td>HowtoKB</td><td>how to setup virtuoso and KBs</td>
+        <td>HowtoKB</td><td>how to setup virtuoso and KBs (DBpedia and Freebase)</td>
     </tr>
 	<tr>
         <td>case study</td><td>two examples of skeleton-based SP and IR approaches</td>
