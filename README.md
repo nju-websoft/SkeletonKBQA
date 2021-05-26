@@ -1,7 +1,6 @@
 # Skeleton Parsing for Complex Question Answering over Knowledge Bases
 
-Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over Knowledge Bases" .
-If you meet any questions, please email to him (ywsun at smail.nju.edu.cn). 
+Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over Knowledge Bases" . 
 
 ## Project Structure:
 
