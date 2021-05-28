@@ -9,16 +9,16 @@ Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over
         <th>File</th><th>Description</th>
     </tr>
     <tr>
-        <td>code</td><td>codes of skeleton-based SP and IR approaches</td>
+        <td>kbcqa</td><td>Codes of skeleton-based SP and IR approaches</td>
     </tr>
     <tr>
-        <td>skeletons</td><td>skeleton bank</td>
+        <td>skeletons</td><td>Skeleton Bank</td>
     </tr>
 	<tr>
-        <td>HowtoKB</td><td>how to setup virtuoso and KBs (DBpedia and Freebase)</td>
+        <td>semantic matching</td><td>Slot Matching (BERT) Scoring and Path Matching (BERT) Scoring</td>
     </tr>
 	<tr>
-        <td>case study</td><td>two examples of skeleton-based SP and IR approaches</td>
+        <td>case study</td><td>Two examples of skeleton-based SP and IR approaches</td>
     </tr>
 </table>
  
