@@ -1,4 +1,4 @@
-# Skeleton Parsing for Complex Question Answering over Knowledge Bases
+# SkeletonKBQA: Skeleton Parsing for Complex Question Answering over Knowledge Bases
 
 Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over Knowledge Bases" . 
 
@@ -21,10 +21,38 @@ Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over
         <td>case study</td><td>Two examples of skeleton-based SP and IR approaches</td>
     </tr>
 </table>
-  
-## Continue...:
+
+
+## Requirements
+* requirements.txt
+
+## Configuration
+* Root of dataset: default D:/dataset. Note that you can edit it in common/globals_args.py. 
+
+**Note that the following files are in baidu wangpan. The extraction code of all files is kbqa.**
+
+## Common Resources
+* [Eight Resources](https://pan.baidu.com/s/1__BBXhEvUuRfqdurofHooQ): GloVe (glove.6B.300d), Stanford CoreNLP server, SUTime Java library, BERT pre-trained Models, and four preprocessing files(stopwords.txt, ordinal_fengli.tsv, unimportantphrase, and unimportantwords). unzip and save in the root.
+* Two version Freebase: [latest version](https://pan.baidu.com/s/1CCxljj_yH9S3Y4Zeh6epmw) and [2013 version](https://pan.baidu.com/s/1FWwv1R_7JtO_mpk_6pL_TQ). Next, download a virtuoso server and load the KBs. You can also download the KBs from [freebase site](https://developers.google.com/freebase). The [file](http://ws.nju.edu.cn/blog/2017/03/virtuoso%E5%AE%89%E8%A3%85%E5%92%8C%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE/) is helpful, if you meet questions.
+* DBpedia: [201604 version](https://pan.baidu.com/s/1CCxljj_yH9S3Y4Zeh6epmw).
+
+## Specific LC-QuAD 1.0 Resources
+
+
+## Specific GraphQuestions Resources
+
+
+## Specific CWQ 1.1 Resources
+* [CWQ 1.1 dataset](https://pan.baidu.com/s/1N_WBCmoQIvNCk_W4oFHeKA): skeleton parsing models, word-level scorer model, sentence-level scorer model. unzip and save in the root.
+* [Lexicons](https://pan.baidu.com/s/146e7C4LCrNiQJp6urZU_ZQ): entity-related lexicons and KB schema-related lexicons. unzip and save in the root.
+
+
+## Run SkeletonKBQA Pipeline
+The pipeline has two KBQA approaches: skeleton-based semantic parsing approach and skeleton-based information retrieval approach.
+
 
 ## Contacts
 If you have any difficulty or questions in running codes, reproducing experimental results, and skeleton parsing, please email to him (ywsun at smail.nju.edu.cn). 
+
 
 
