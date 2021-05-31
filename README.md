@@ -59,8 +59,10 @@ Note that download a [virtuoso server](http://vos.openlinksw.com/owiki/wiki/VOS)
 * [CWQ 1.1 dataset](https://pan.baidu.com/s/1N_WBCmoQIvNCk_W4oFHeKA): skeleton parsing models, word-level scorer model, sentence-level scorer model. unzip and save in the root.
 * [Lexicons of the corresponding KB (Freebase latest)](https://pan.baidu.com/s/146e7C4LCrNiQJp6urZU_ZQ): entity-related lexicons and KB schema-related lexicons. unzip and save in the root.
 
-## Run SkeletonKBQA Pipeline
-The pipeline has two KBQA approaches: Skeleton-based Semantic Parsing approach (**SSP**) and Skeleton-based Information Retrieval approach (**SIR**).
+## Run SkeletonKBQA
+SkeletonKBQA has two KBQA approaches: Skeleton-based Semantic Parsing approach (**SSP**) and Skeleton-based Information Retrieval approach (**SIR**).
+* SSP
+* SIR
 
 
 ## Contacts
