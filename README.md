@@ -34,11 +34,11 @@ The cofiguration is in common/globals_args.py.
 * parser_mode: select skeleton or dependency.
 
 
-Note that the following files are in baidu wangpan. The extraction code of all files is **kbqa**.
+Note that we provide two ways to download the following all files: google drive and baidu pan. The extraction code of all files from baidu pan is **kbqa**.
 
 
 ## Common Resources
-* [Eight Resources](https://pan.baidu.com/s/1__BBXhEvUuRfqdurofHooQ): GloVe (glove.6B.300d), Stanford CoreNLP server, SUTime Java library, BERT pre-trained Models, and four preprocessing files(stopwords.txt, ordinal_fengli.tsv, unimportantphrase, and unimportantwords). unzip and save in the root.
+* Stanford CoreNLP server, SUTime Java library, and BERT pre-trained Models: [drive](https://drive.google.com/drive/folders/1JiC1uyZ6ap5IaFh9dnJEUxu76KRYNmz5) and [pan](https://pan.baidu.com/s/1__BBXhEvUuRfqdurofHooQ). Download, unzip, and save in the root folder.
 
 
 ## Knowledge Bases
