@@ -38,7 +38,7 @@ Note that the following files are in baidu wangpan. The extraction code of all f
 * [Eight Resources](https://pan.baidu.com/s/1__BBXhEvUuRfqdurofHooQ): GloVe (glove.6B.300d), Stanford CoreNLP server, SUTime Java library, BERT pre-trained Models, and four preprocessing files(stopwords.txt, ordinal_fengli.tsv, unimportantphrase, and unimportantwords). unzip and save in the root.
 
 
-## Three Knowledge Bases (KBs)
+## Knowledge Bases (KBs)
 * [DBpedia (201604 version)](https://pan.baidu.com/s/1byImrmRmOJC-EfYGwvcmOw), for LC-QuAD 1.0
 * [Freebase (2013 version)](https://pan.baidu.com/s/1FWwv1R_7JtO_mpk_6pL_TQ), for GraphQuestions
 * [Freebase (latest version)](https://pan.baidu.com/s/1CCxljj_yH9S3Y4Zeh6epmw), for ComplexWebQuestions
