@@ -41,17 +41,17 @@ Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over
 * Download a virtuoso server and load the KBs. The [file](http://ws.nju.edu.cn/blog/2017/03/virtuoso%E5%AE%89%E8%A3%85%E5%92%8C%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE/) is helpful, if you meet questions.
 
 
-## Specific LC-QuAD 1.0 Resources
+## LC-QuAD 1.0 Resources
 * [LC-QuAD 1.0 dataset](https://pan.baidu.com/s/106vC73W9WKXyuuFcaoPIuQ): Skeleton Parsing models, Word-level scorer model. unzip and save in the root.
 * [Lexicons](https://pan.baidu.com/s/1VfF7O0TDRCKiZxqxRpQ8fQ): Entity-related Lexicons and KB schema-related lexicons. unzip and save in the root.
 
 
-## Specific GraphQuestions Resources
+## GraphQuestions Resources
 * [GraphQuestions dataset](https://pan.baidu.com/s/106vC73W9WKXyuuFcaoPIuQ): Skeleton Parsing models, Word-level scorer model. unzip and save in the root.
 * [Lexicons](https://pan.baidu.com/s/1VfF7O0TDRCKiZxqxRpQ8fQ): Entity-related Lexicons and KB schema-related lexicons. unzip and save in the root.
 
 
-## Specific CWQ 1.1 Resources
+## CWQ 1.1 Resources
 * [CWQ 1.1 dataset](https://pan.baidu.com/s/1N_WBCmoQIvNCk_W4oFHeKA): skeleton parsing models, word-level scorer model, sentence-level scorer model. unzip and save in the root.
 * [Lexicons](https://pan.baidu.com/s/146e7C4LCrNiQJp6urZU_ZQ): entity-related lexicons and KB schema-related lexicons. unzip and save in the root.
 
