@@ -31,7 +31,7 @@ Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over
 * Root of dataset: default D:/dataset. Note that you can edit it in common/globals_args.py. 
 
 
-**Note that the following files are in baidu wangpan. The extraction code of all files is kbqa.**
+Note that the following files are in baidu wangpan. The extraction code of all files is **kbqa**.
 
 
 ## Common Resources
