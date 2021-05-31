@@ -66,13 +66,14 @@ Note that download a [virtuoso server](http://vos.openlinksw.com/owiki/wiki/VOS)
 
 
 ## Run SkeletonKBQA
-SkeletonKBQA has two KBQA approaches: Skeleton-based Semantic Parsing approach (**SSP**) and Skeleton-based Information Retrieval approach (**SIR**).
-* SSP
-* SIR
+SkeletonKBQA contains two KBQA approaches:
+
+* Skeleton-based Semantic Parsing approach (**SSP**)
+* Skeleton-based Information Retrieval approach (**SIR**)
 
 
 ## Results
-We provide results for LC-QuAD 1.0, GraphQuestions, and CWQ 1.1. 
+We provide results for LC-QuAD 1.0, GraphQuestions, and ComplexWebQuestions 1.1. 
 
 
 ## Contacts
