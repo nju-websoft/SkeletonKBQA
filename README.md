@@ -39,9 +39,9 @@ Note that the following files are in baidu wangpan. The extraction code of all f
 
 
 ## Three Knowledge Bases (KBs)
-	- [DBpedia 2013 version](https://pan.baidu.com/s/1FWwv1R_7JtO_mpk_6pL_TQ)[201604 version](https://pan.baidu.com/s/1CCxljj_yH9S3Y4Zeh6epmw).
-	- [Freebase 2013 version](https://pan.baidu.com/s/1FWwv1R_7JtO_mpk_6pL_TQ)
-	- [Freebase latest version](https://pan.baidu.com/s/1CCxljj_yH9S3Y4Zeh6epmw) 
+* [DBpedia 2013 version](https://pan.baidu.com/s/1FWwv1R_7JtO_mpk_6pL_TQ)[201604 version](https://pan.baidu.com/s/1CCxljj_yH9S3Y4Zeh6epmw).
+* [Freebase 2013 version](https://pan.baidu.com/s/1FWwv1R_7JtO_mpk_6pL_TQ)
+* [Freebase latest version](https://pan.baidu.com/s/1CCxljj_yH9S3Y4Zeh6epmw) 
 
 Note that download a [virtuoso server](http://vos.openlinksw.com/owiki/wiki/VOS) and load the above KBs. The [file](http://ws.nju.edu.cn/blog/2017/03/virtuoso%E5%AE%89%E8%A3%85%E5%92%8C%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE/) is helpful, if you meet questions.
 
