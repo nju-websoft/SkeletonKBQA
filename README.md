@@ -28,7 +28,10 @@ Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over
 
 
 ## Configuration
-* Root of dataset: default D:/dataset. Note that you can edit it in common/globals_args.py. 
+The cofiguration is in common/globals_args.py.
+* root: the root of all data in SkeletonKBQA, default E:/dataset.  
+* q_mode: select a specific KBQA dataset, SkeletonKBQA supports three datasets: lcquad, graphq, and cwq.
+* parser_mode: select skeleton or dependency.
 
 
 Note that the following files are in baidu wangpan. The extraction code of all files is **kbqa**.
