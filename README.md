@@ -34,7 +34,7 @@ The cofiguration is in common/globals_args.py.
 * parser_mode: select skeleton or dependency.
 
 
-**Note that: for convenience, we provide two ways to download the following files: google drive and baidu pan. You select one from the two ways. The extraction code of baidu pan is kbqa**.
+Note that: for convenience, we provide two ways to download the following files: **google drive** and **baidu pan**. You select one from the two ways. The extraction code of baidu pan is **kbqa**.
 
 
 ## Common Resources
