@@ -34,11 +34,11 @@ The cofiguration is in common/globals_args.py.
 * parser_mode: select skeleton or dependency.
 
 
-Note that we provide two ways to download the following all files: google drive and baidu pan. The extraction code of all files from baidu pan is **kbqa**.
+**Note that: for convenience, we provide two ways to download the following files: google drive and baidu pan. You select one from the two ways. The extraction code of baidu pan is kbqa**.
 
 
 ## Common Resources
-* Stanford CoreNLP server, SUTime Java library, and BERT pre-trained Models: [drive](https://drive.google.com/drive/folders/1JiC1uyZ6ap5IaFh9dnJEUxu76KRYNmz5) and [pan](https://pan.baidu.com/s/1__BBXhEvUuRfqdurofHooQ). Download, unzip, and save in the root folder.
+* Stanford CoreNLP server, SUTime Java library, and BERT pre-trained Models: [drive](https://drive.google.com/drive/folders/1JiC1uyZ6ap5IaFh9dnJEUxu76KRYNmz5) [pan](https://pan.baidu.com/s/1__BBXhEvUuRfqdurofHooQ). Download, unzip, and save in the root folder.
 
 
 ## Knowledge Bases
