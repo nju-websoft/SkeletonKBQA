@@ -49,17 +49,17 @@ Note that download a [virtuoso server](http://vos.openlinksw.com/owiki/wiki/VOS)
 
 ## LC-QuAD 1.0
 * [Skeleton Parsing models](https://pan.baidu.com/s/106vC73W9WKXyuuFcaoPIuQ): unzip and save in the root.
-* [Lexicons of the corresponding KB (DBpedia 201604)](https://pan.baidu.com/s/1stBDoY6Xdz2d6TeBmq_DJA): Entity-related and KB schema-related lexicons. unzip and save in the root.
+* [The corresponding KB Lexicons](https://pan.baidu.com/s/1stBDoY6Xdz2d6TeBmq_DJA): Entity-related and KB schema-related lexicons. unzip and save in the root.
 
 
 ## GraphQuestions
 * [Skeleton Parsing models](https://pan.baidu.com/s/106vC73W9WKXyuuFcaoPIuQ): unzip and save in the root.
-* [Lexicons of the corresponding KB (Freebase 2013)](https://pan.baidu.com/s/1VfF7O0TDRCKiZxqxRpQ8fQ): Entity-related and KB schema-related lexicons. unzip and save in the root.
+* [The corresponding KB Lexicons](https://pan.baidu.com/s/1VfF7O0TDRCKiZxqxRpQ8fQ): Entity-related and KB schema-related lexicons. unzip and save in the root.
 
 
 ## ComplexWebQuestions 1.1
 * [Skeleton Parsing models](https://pan.baidu.com/s/1N_WBCmoQIvNCk_W4oFHeKA): unzip and save in the root.
-* [Lexicons of the corresponding KB (Freebase latest)](https://pan.baidu.com/s/146e7C4LCrNiQJp6urZU_ZQ): entity-related and KB schema-related lexicons. unzip and save in the root.
+* [The corresponding KB Lexicons](https://pan.baidu.com/s/146e7C4LCrNiQJp6urZU_ZQ): entity-related and KB schema-related lexicons. unzip and save in the root.
 
 
 ## Run SkeletonKBQA
