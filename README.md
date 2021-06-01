@@ -78,15 +78,15 @@ Note that download a [virtuoso server](http://vos.openlinksw.com/owiki/wiki/VOS)
 
 
 ## LC-QuAD 1.0
-* LC-QuAD 1.0 datasets, its skeleton parsing models and its corresponding KB entity-related Lexicons: [Google Drive](https://drive.google.com/file/d/1lpdtISia5HYlVigZ_C5HWPFDhNCerYf_/view?usp=sharing). Download, unzip the zip file, and then copy it to the root.
+* LC-QuAD 1.0 datasets, its skeleton parsing models and its corresponding KB entity-related Lexicons: [Google Drive](https://drive.google.com/file/d/1lpdtISia5HYlVigZ_C5HWPFDhNCerYf_/view?usp=sharing). download, unzip the zip file, and then copy it to the root.
 
 
 ## GraphQuestions
-* GraphQuestions datasets, its skeleton parsing models and its corresponding KB entity-related Lexicons: [Google Drive](https://drive.google.com/file/d/1jMf-GyZNEN3Pb1bP2PhoobnSZLFRXSTA/view?usp=sharing). Download, unzip the zip file, and then copy it to the root.
+* GraphQuestions datasets, its skeleton parsing models and its corresponding KB entity-related Lexicons: [Google Drive](https://drive.google.com/file/d/1jMf-GyZNEN3Pb1bP2PhoobnSZLFRXSTA/view?usp=sharing). download, unzip the zip file, and then copy it to the root.
 
 
 ## ComplexWebQuestions 1.1
-* ComplexWebQuestions 1.1 datasets, its skeleton parsing models and its corresponding KB entity-related Lexicons: [Google Drive](). Download, unzip the zip file, and then copy it to the root.
+* ComplexWebQuestions 1.1 datasets, its skeleton parsing models and its corresponding KB entity-related Lexicons: [Google Drive](https://drive.google.com/file/d/1nzSVhHgozhPO7teY078jtKH42T-fXoUO/view?usp=sharing). download, unzip the zip file, and then copy it to the root.
 
 
 ## Run SkeletonKBQA
@@ -109,7 +109,6 @@ bash run_ssp_CWQ.sh
 
 ## Results
 We provide KBQA results for LC-QuAD 1.0, GraphQuestions, and ComplexWebQuestions 1.1. 
-
 
 
 ## Contacts
