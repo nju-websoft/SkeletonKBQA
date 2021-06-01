@@ -21,9 +21,10 @@ Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over
 
 
 ## Skeleton Bank
+
 We annotate and publish a skeleton bank of 15,166 questions from three KBQA datasets. The skeleton bank is json format, like this:
 
-'''
+```
 {
 	"question": "People from the country with the capital Brussels speak what languages ?",
 	"skeleton": [
@@ -41,7 +42,7 @@ We annotate and publish a skeleton bank of 15,166 questions from three KBQA data
 		}
 	]
 }
-'''
+```
 
 
 ** Note that we will explain how to run the codes of kbcqa file below **
