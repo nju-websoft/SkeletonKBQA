@@ -26,26 +26,26 @@ We annotate and publish a skeleton bank of 15,166 questions from three KBQA data
 
 ```
 {
-	"question": "People from the country with the capital Brussels speak what languages ?",
-	"skeleton": [
-		{
-			"question": "People from the country with the capital Brussels speak what languages ?",
-			"text_span": "with the capital Brussels",
-			"headword_index": 3,
-			"attachment_relation": "nmod"
-		},
-		{
-			"question": "People from the country speak what languages ?",
-			"text_span": "from the country",
-			"headword_index": 0,
-			"attachment_relation": "nmod"
-		}
-	]
+"question": "People from the country with the capital Brussels speak what languages ?",
+"skeleton": [
+	{
+		"question": "People from the country with the capital Brussels speak what languages ?",
+		"text_span": "with the capital Brussels",
+		"headword_index": 3,
+		"attachment_relation": "nmod"
+	},
+	{
+		"question": "People from the country speak what languages ?",
+		"text_span": "from the country",
+		"headword_index": 0,
+		"attachment_relation": "nmod"
+	}
+]
 }
 ```
 
 
-**Note that we will explain how to run the codes of kbcqa file below**
+**Note that we will explain how to run the codes of kbcqa file below.**
 
 
 ## Requirements
