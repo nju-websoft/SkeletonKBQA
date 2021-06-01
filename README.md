@@ -74,33 +74,37 @@ The cofiguration of SkeletonKBQA is in kbcqa/common/globals_args.py.
 * Freebase ([latest version](https://developers.google.com/freebase)) for ComplexWebQuestions 1.1
 
 
-Note that download a [virtuoso server](http://vos.openlinksw.com/owiki/wiki/VOS) and load the above KBs. In addition, you do not need to download all KBs. You only need to load a specific KB which is correspond to your KBQA dataset.
+Note that download a [virtuoso server](http://vos.openlinksw.com/owiki/wiki/VOS) and load the above KBs. You only need to load a specific KB which is correspond to your KBQA dataset.
 
 
 ## LC-QuAD 1.0
-* [Skeleton Parsing models](https://pan.baidu.com/s/106vC73W9WKXyuuFcaoPIuQ): unzip and save in the root.
-* [The corresponding KB Lexicons](https://pan.baidu.com/s/1stBDoY6Xdz2d6TeBmq_DJA): Entity-related and KB schema-related lexicons. unzip and save in the root.
+* LC-QuAD 1.0 datasets, its skeleton parsing models and its corresponding KB entity-related Lexicons: [Google Drive](https://drive.google.com/file/d/1lpdtISia5HYlVigZ_C5HWPFDhNCerYf_/view?usp=sharing). Download, unzip the zip file, and then copy it to the root.
 
 
 ## GraphQuestions
-* [Skeleton Parsing models](https://pan.baidu.com/s/106vC73W9WKXyuuFcaoPIuQ): unzip and save in the root.
-* [The corresponding KB Lexicons](https://pan.baidu.com/s/1VfF7O0TDRCKiZxqxRpQ8fQ): Entity-related and KB schema-related lexicons. unzip and save in the root.
+* GraphQuestions datasets, its skeleton parsing models and its corresponding KB entity-related Lexicons: [Google Drive](https://drive.google.com/file/d/1jMf-GyZNEN3Pb1bP2PhoobnSZLFRXSTA/view?usp=sharing). Download, unzip the zip file, and then copy it to the root.
 
 
 ## ComplexWebQuestions 1.1
-* [Skeleton Parsing models](https://pan.baidu.com/s/1N_WBCmoQIvNCk_W4oFHeKA): unzip and save in the root.
-* [The corresponding KB Lexicons](https://pan.baidu.com/s/146e7C4LCrNiQJp6urZU_ZQ): entity-related and KB schema-related lexicons. unzip and save in the root.
+* ComplexWebQuestions 1.1 datasets, its skeleton parsing models and its corresponding KB entity-related Lexicons: [Google Drive](). Download, unzip the zip file, and then copy it to the root.
 
 
 ## Run SkeletonKBQA
 SkeletonKBQA contains two KBQA approaches:
 
 * Skeleton-based Semantic Parsing approach (**SSP**)
+```
+bash run_sir_LCQ.sh
+bash run_sir_GraphQ.sh
+bash run_sir_CWQ.sh
+```
+
 * Skeleton-based Information Retrieval approach (**SIR**)
-
-
-## Results
-We provide results for LC-QuAD 1.0, GraphQuestions, and ComplexWebQuestions 1.1. 
+```
+bash run_ssp_LCQ.sh
+bash run_ssp_GraphQ.sh
+bash run_ssp_CWQ.sh
+```
 
 
 ## Contacts
