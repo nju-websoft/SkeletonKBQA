@@ -11,9 +11,6 @@ Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over
     <tr>
         <td>kbcqa</td><td>Codes of skeleton-based SP and IR approaches</td>
     </tr>
-	<tr>
-        <td>semantic matching</td><td>Slot Matching (BERT) Scoring and Path Matching (BERT) Scoring</td>
-    </tr>
     <tr>
         <td>skeletons</td><td>Skeleton Bank</td>
     </tr>
@@ -39,20 +36,18 @@ The cofiguration of SkeletonKBQA is in common/globals_args.py.
 * freebase_pyodbc: the odbc of Freebase virtuoso server.
 * freebase_sparql_html: the web site of Freebase virtuoso server.
 
-Note that we provide **google drive** way to download the following files.
-
 
 ## Common Resources
-* Stanford CoreNLP server, SUTime Java library, and BERT pre-trained Models: [Google Drive](https://drive.google.com/file/d/1LZmyVCuW0NPCEapm3l_ztBUK_bWdGEs1/view?usp=sharing). Download and unzip the zip file, and then copy it to the root folder.
+* Stanford CoreNLP server, SUTime Java library, and BERT pre-trained Models: [Google Drive](https://drive.google.com/file/d/1LZmyVCuW0NPCEapm3l_ztBUK_bWdGEs1/view?usp=sharing). Download, unzip the zip file, and then copy it to the root folder.
 
 
 ## Knowledge Bases
 * DBpedia (201604 version) [Google Drive](https://drive.google.com/file/d/1LZmyVCuW0NPCEapm3l_ztBUK_bWdGEs1/view?usp=sharing) for LC-QuAD 1.0 
-* Freebase (2013 version)] for GraphQuestions
-* Freebase (latest version)  for ComplexWebQuestions
+* Freebase ([2013 version](http://commondatastorage.googleapis.com/freebase-public)) for GraphQuestions
+* Freebase ([latest version](https://developers.google.com/freebase)) for ComplexWebQuestions
 
 
-Note that download a [virtuoso server](http://vos.openlinksw.com/owiki/wiki/VOS) and load the above KBs. The [file](http://ws.nju.edu.cn/blog/2017/03/virtuoso%E5%AE%89%E8%A3%85%E5%92%8C%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE/) is helpful, if you meet questions. In addition, you do not need to download all KBs. You only need to load a specific KB which is correspond to your KBQA dataset.
+Note that download a [virtuoso server](http://vos.openlinksw.com/owiki/wiki/VOS) and load the above KBs. In addition, you do not need to download all KBs. You only need to load a specific KB which is correspond to your KBQA dataset.
 
 
 ## LC-QuAD 1.0
