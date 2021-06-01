@@ -107,6 +107,11 @@ bash run_ssp_CWQ.sh
 ```
 
 
+## Results
+We provide KBQA results for LC-QuAD 1.0, GraphQuestions, and ComplexWebQuestions 1.1. 
+
+
+
 ## Contacts
 If you have any difficulty or questions in running codes, reproducing experimental results, and skeleton parsing, please email to him (ywsun at smail.nju.edu.cn). 
 
