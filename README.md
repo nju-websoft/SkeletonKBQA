@@ -28,17 +28,22 @@ Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over
 
 
 ## Configuration
-The cofiguration is in common/globals_args.py.
+The cofiguration of SkeletonKBQA is in common/globals_args.py.
 * root: the root of all data in SkeletonKBQA, default E:/dataset.  
 * q_mode: select a specific KBQA dataset, SkeletonKBQA supports three datasets: lcquad, graphq, and cwq.
 * parser_mode: select skeleton or dependency.
+* sutime: the jar files path of SUTime Java library tool.
+* corenlp_ip_port: the ip port of Stanford CoreNLP server.
+* dbpedia_pyodbc: the odbc of DBpedia virtuoso server.
+* dbpedia_sparql_html: the web site of DBpedia virtuoso server.
+* freebase_pyodbc: the odbc of Freebase virtuoso server.
+* freebase_sparql_html: the web site of Freebase virtuoso server.
 
-
-Note that: for convenience, we provide two ways to download the following files: **google drive** and **baidu pan**. You select one from the two ways. The extraction code of baidu pan is **kbqa**.
+Note that we provide **google drive** way to download the following files.
 
 
 ## Common Resources
-* Stanford CoreNLP server, SUTime Java library, and BERT pre-trained Models: [drive](https://drive.google.com/drive/folders/1JiC1uyZ6ap5IaFh9dnJEUxu76KRYNmz5) [pan](https://pan.baidu.com/s/1__BBXhEvUuRfqdurofHooQ). Download, unzip, and save in the root folder.
+* Stanford CoreNLP server, SUTime Java library, and BERT pre-trained Models: [drive](https://drive.google.com/drive/folders/1JiC1uyZ6ap5IaFh9dnJEUxu76KRYNmz5). Download, unzip the file, and save in the root folder.
 
 
 ## Knowledge Bases
