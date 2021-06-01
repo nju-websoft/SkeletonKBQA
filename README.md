@@ -29,9 +29,9 @@ Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over
 
 ## Configuration
 The cofiguration of SkeletonKBQA is in common/globals_args.py.
-* root: the root of all data in SkeletonKBQA, default E:/dataset.  
-* q_mode: select a specific KBQA dataset, SkeletonKBQA supports three datasets: lcquad, graphq, and cwq.
-* parser_mode: select skeleton or dependency.
+* root: root of all data, default E:/dataset.  
+* q_mode: a specific KBQA dataset: lcquad, graphq, and cwq.
+* parser_mode: skeleton or dependency.
 * sutime: the jar files path of SUTime Java library tool.
 * corenlp_ip_port: the ip port of Stanford CoreNLP server.
 * dbpedia_pyodbc: the odbc of DBpedia virtuoso server.
@@ -43,13 +43,13 @@ Note that we provide **google drive** way to download the following files.
 
 
 ## Common Resources
-* Stanford CoreNLP server, SUTime Java library, and BERT pre-trained Models: [drive](https://drive.google.com/drive/folders/1JiC1uyZ6ap5IaFh9dnJEUxu76KRYNmz5). Download, unzip the file, and save in the root folder.
+* Stanford CoreNLP server, SUTime Java library, and BERT pre-trained Models: [Google Drive](https://drive.google.com/file/d/1LZmyVCuW0NPCEapm3l_ztBUK_bWdGEs1/view?usp=sharing). Download and unzip the zip file, and then copy it to the root folder.
 
 
 ## Knowledge Bases
-* [DBpedia (201604 version)](https://pan.baidu.com/s/1byImrmRmOJC-EfYGwvcmOw), for LC-QuAD 1.0
-* [Freebase (2013 version)](https://pan.baidu.com/s/1FWwv1R_7JtO_mpk_6pL_TQ), for GraphQuestions
-* [Freebase (latest version)](https://pan.baidu.com/s/1CCxljj_yH9S3Y4Zeh6epmw), for ComplexWebQuestions
+* DBpedia (201604 version) [Google Drive](https://drive.google.com/file/d/1LZmyVCuW0NPCEapm3l_ztBUK_bWdGEs1/view?usp=sharing) for LC-QuAD 1.0 
+* Freebase (2013 version)] for GraphQuestions
+* Freebase (latest version)  for ComplexWebQuestions
 
 
 Note that download a [virtuoso server](http://vos.openlinksw.com/owiki/wiki/VOS) and load the above KBs. The [file](http://ws.nju.edu.cn/blog/2017/03/virtuoso%E5%AE%89%E8%A3%85%E5%92%8C%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE/) is helpful, if you meet questions. In addition, you do not need to download all KBs. You only need to load a specific KB which is correspond to your KBQA dataset.
