@@ -12,7 +12,7 @@ Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over
         <td>kbcqa</td><td>Codes of skeleton-based SP and IR approaches</td>
     </tr>
     <tr>
-        <td>skeletons</td><td>Skeleton Bank</td>
+        <td>skeletons</td><td>Skeleton Bank from three complex KBQA datasets</td>
     </tr>
 	<tr>
         <td>case study</td><td>Two examples of skeleton-based SP and IR approaches</td>
@@ -20,21 +20,47 @@ Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over
 </table>
 
 
+## Skeleton Bank
+We annotate and publish a skeleton bank of 15,166 questions from three KBQA datasets. The skeleton bank is json format, like this:
+
+'''
+{
+	"question": "People from the country with the capital Brussels speak what languages ?",
+	"skeleton": [
+		{
+			"question": "People from the country with the capital Brussels speak what languages ?",
+			"text_span": "with the capital Brussels",
+			"headword_index": 3,
+			"attachment_relation": "nmod"
+		},
+		{
+			"question": "People from the country speak what languages ?",
+			"text_span": "from the country",
+			"headword_index": 0,
+			"attachment_relation": "nmod"
+		}
+	]
+}
+'''
+
+
+** Note that we will explain how to run the codes of kbcqa file below **
+
+
 ## Requirements
-* [requirements.txt](https://github.com/nju-websoft/SkeletonKBQA/tree/main/kbcqa/requirements.txt)
+* [requirements.txt](https://github.com/nju-websoft/SkeletonKBQA/blob/main/kbcqa/requirements.txt)
 
 
 ## Configuration
-The cofiguration of SkeletonKBQA is in common/globals_args.py.
-* root: root of all data, default E:/dataset.  
+The cofiguration of SkeletonKBQA is in kbcqa/common/globals_args.py.
+* root: root of all resources and datasets, default ../dataset.  
 * q_mode: a specific KBQA dataset: lcquad, graphq, and cwq.
-* parser_mode: skeleton or dependency.
-* sutime: the jar files path of SUTime Java library tool.
-* corenlp_ip_port: the ip port of Stanford CoreNLP server.
-* dbpedia_pyodbc: the odbc of DBpedia virtuoso server.
-* dbpedia_sparql_html: the web site of DBpedia virtuoso server.
-* freebase_pyodbc: the odbc of Freebase virtuoso server.
-* freebase_sparql_html: the web site of Freebase virtuoso server.
+* sutime: jar files path of SUTime Java library tool.
+* corenlp_ip_port: ip port of Stanford CoreNLP server.
+* dbpedia_pyodbc: odbc of DBpedia virtuoso server.
+* dbpedia_sparql_html: web site of DBpedia virtuoso server.
+* freebase_pyodbc: odbc of Freebase virtuoso server.
+* freebase_sparql_html: web site of Freebase virtuoso server.
 
 
 ## Common Resources
