@@ -45,7 +45,7 @@ We annotate and publish a skeleton bank of 15,166 questions from three KBQA data
 ```
 
 
-** Note that we will explain how to run the codes of kbcqa file below **
+**Note that we will explain how to run the codes of kbcqa file below**
 
 
 ## Requirements
