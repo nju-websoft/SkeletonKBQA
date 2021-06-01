@@ -65,13 +65,13 @@ The cofiguration of SkeletonKBQA is in kbcqa/common/globals_args.py.
 
 
 ## Common Resources
-* Stanford CoreNLP server, SUTime Java library, and BERT pre-trained Models: [google drive](https://drive.google.com/file/d/1LZmyVCuW0NPCEapm3l_ztBUK_bWdGEs1/view?usp=sharing). Download, unzip the zip file, and then copy it to the root folder.
+* Stanford CoreNLP server, SUTime Java library, and BERT pre-trained Models: [google drive](https://drive.google.com/file/d/1LZmyVCuW0NPCEapm3l_ztBUK_bWdGEs1/view?usp=sharing). download, unzip the zip file, and then copy it to the root folder.
 
 
 ## Knowledge Bases
-* DBpedia ([201604 version](http://downloads.dbpedia.org/wiki-archive/dbpedia-version-2016-04.html)) for LC-QuAD 1.0 
-* Freebase ([2013 version](http://commondatastorage.googleapis.com/freebase-public)) for GraphQuestions
-* Freebase ([latest version](https://developers.google.com/freebase)) for ComplexWebQuestions 1.1
+* DBpedia [201604 version](http://downloads.dbpedia.org/wiki-archive/dbpedia-version-2016-04.html) for LC-QuAD 1.0 
+* Freebase [2013 version](http://commondatastorage.googleapis.com/freebase-public) for GraphQuestions
+* Freebase [latest version](https://developers.google.com/freebase) for ComplexWebQuestions 1.1
 
 
 Note that download a [virtuoso server](http://vos.openlinksw.com/owiki/wiki/VOS) and load the above KBs. You only need to load a specific KB which is correspond to your KBQA dataset.
