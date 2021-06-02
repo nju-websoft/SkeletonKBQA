@@ -64,7 +64,8 @@ The cofiguration of SkeletonKBQA is in kbcqa/common/globals_args.py.
 * freebase_sparql_html: web site of Freebase virtuoso server.
 
 
-## Common Resources [google drive](https://drive.google.com/file/d/1LZmyVCuW0NPCEapm3l_ztBUK_bWdGEs1/view?usp=sharing)
+## Common Resources
+The zip file from [google drive](https://drive.google.com/file/d/1LZmyVCuW0NPCEapm3l_ztBUK_bWdGEs1/view?usp=sharing) contains three parts:
 * Stanford CoreNLP server
 * SUTime Java library
 * BERT pre-trained Models
@@ -81,23 +82,24 @@ Note that download, unzip the zip file, and then copy it to the root folder.
 Note that download a [virtuoso server](http://vos.openlinksw.com/owiki/wiki/VOS) and load the above KBs. You only need to load a specific KB which is correspond to your KBQA dataset.
 
 
-## LC-QuAD 1.0 Resources [google drive](https://drive.google.com/file/d/1lpdtISia5HYlVigZ_C5HWPFDhNCerYf_/view?usp=sharing)
-The zip file contains three parts: 
+## LC-QuAD 1.0 Resources
+The zip file from [google drive](https://drive.google.com/file/d/1lpdtISia5HYlVigZ_C5HWPFDhNCerYf_/view?usp=sharing) contains three parts: 
 * LC-QuAD 1.0 datasets
 * Its skeleton parsing models
 * Its corresponding KB entity-related Lexicons
 
 Note that download, unzip the zip file, and then copy it to the root.
 
-## GraphQuestions Resources [google drive](https://drive.google.com/file/d/1jMf-GyZNEN3Pb1bP2PhoobnSZLFRXSTA/view?usp=sharing)
-The zip file contains three parts: 
+## GraphQuestions Resources 
+The zip file from [google drive](https://drive.google.com/file/d/1jMf-GyZNEN3Pb1bP2PhoobnSZLFRXSTA/view?usp=sharing) contains three parts: 
 * GraphQuestions datasets
 * Its skeleton parsing models
 * Its corresponding KB entity-related Lexicons
 
 Note that download, unzip the zip file, and then copy it to the root.
 
-## ComplexWebQuestions 1.1 [google drive](https://drive.google.com/file/d/1nzSVhHgozhPO7teY078jtKH42T-fXoUO/view?usp=sharing)
+## ComplexWebQuestions 1.1 
+The zip file from [google drive](https://drive.google.com/file/d/1nzSVhHgozhPO7teY078jtKH42T-fXoUO/view?usp=sharing) contains three parts: 
 * ComplexWebQuestions 1.1 datasets
 * Its skeleton parsing models
 * Its corresponding KB entity-related Lexicons
@@ -107,18 +109,30 @@ Note that download, unzip the zip file, and then copy it to the root.
 ## Run SkeletonKBQA
 SkeletonKBQA contains two KBQA approaches:
 
-* Skeleton-based Semantic Parsing approach (**SSP**)
-```
-bash run_sir_LCQ.sh
-bash run_sir_GraphQ.sh
-bash run_sir_CWQ.sh
-```
+* Skeleton-based semantic parsing approach (**SSP**) which has four modules:
+** Ungrounded query generation
+** Entity linking
+** Candidate grounded query generation
+** Semantic matching
 
-* Skeleton-based Information Retrieval approach (**SIR**)
+run the provided SSP script as: 
 ```
 bash run_ssp_LCQ.sh
 bash run_ssp_GraphQ.sh
 bash run_ssp_CWQ.sh
+```
+
+* Skeleton-based Information Retrieval approach (**SIR**) which has three modules:
+** Node recogniztion and linking
+** Candidate grounded path generation
+** Semantic matching
+
+
+run the provided SIR script as: 
+```
+bash run_sir_LCQ.sh
+bash run_sir_GraphQ.sh
+bash run_sir_CWQ.sh
 ```
 
 
