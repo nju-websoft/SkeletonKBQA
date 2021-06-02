@@ -116,7 +116,8 @@ SkeletonKBQA contains two KBQA approaches: **SSP** and **SIR**
   - Semantic matching
 
 Note that the above four modules are correspond to the arguement `module` in `kbcqa/method_sp/sp_pipeline.py`.
-Run the provided SSP script as: 
+
+Run the provided SSP scripts as: 
 ```
 bash run_ssp_LCQ.sh
 bash run_ssp_GraphQ.sh
@@ -130,7 +131,8 @@ bash run_ssp_CWQ.sh
 
 
 Note that the above three modules are correspond to the arguement `module` in `kbcqa/method_ir/ir_pipeline.py`.
-Run the provided SIR script as: 
+
+Run the provided SIR scripts as: 
 ```
 bash run_sir_LCQ.sh
 bash run_sir_GraphQ.sh
