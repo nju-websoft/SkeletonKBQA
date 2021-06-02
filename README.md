@@ -110,10 +110,10 @@ Note that download, unzip the zip file, and then copy it to the root.
 SkeletonKBQA contains two KBQA approaches:
 
 * Skeleton-based semantic parsing approach (**SSP**) which has four modules:
-** Ungrounded query generation
-** Entity linking
-** Candidate grounded query generation
-** Semantic matching
+  - Ungrounded query generation
+  - Entity linking
+  - Candidate grounded query generation
+  - Semantic matching
 
 run the provided SSP script as: 
 ```
@@ -123,9 +123,9 @@ bash run_ssp_CWQ.sh
 ```
 
 * Skeleton-based Information Retrieval approach (**SIR**) which has three modules:
-** Node recogniztion and linking
-** Candidate grounded path generation
-** Semantic matching
+  - Node recogniztion and linking
+  - Candidate grounded path generation
+  - Semantic matching
 
 
 run the provided SIR script as: 
