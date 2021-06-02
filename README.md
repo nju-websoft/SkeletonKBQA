@@ -14,9 +14,6 @@ Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over
     <tr>
         <td>skeletons</td><td>Skeleton Bank from three complex KBQA datasets</td>
     </tr>
-	<tr>
-        <td>case study</td><td>Two examples of skeleton-based SP and IR approaches</td>
-    </tr>
 </table>
 
 
