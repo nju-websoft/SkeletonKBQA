@@ -19,7 +19,9 @@ Codes for a journal paper: "Skeleton Parsing for Complex Question Answering over
 
 ## Skeleton Bank
 
-We annotate and publish a skeleton bank of 15,166 questions from three KBQA datasets. The skeleton bank is json format, like this:
+We annotate and publish a [skeleton bank](https://github.com/nju-websoft/SkeletonKBQA/tree/main/skeletons) of 15,166 questions from three KBQA datasets.
+
+The skeleton bank is json format. An example:
 
 ```
 {
