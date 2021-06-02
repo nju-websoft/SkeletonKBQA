@@ -107,28 +107,30 @@ The zip file from [google drive](https://drive.google.com/file/d/1nzSVhHgozhPO7t
 Note that download, unzip the zip file, and then copy it to the root.
 
 ## Run SkeletonKBQA
-SkeletonKBQA contains two KBQA approaches:
+SkeletonKBQA contains two KBQA approaches: **SSP** and **SIR**
 
-* Skeleton-based semantic parsing approach (**SSP**) which has four modules:
+* Skeleton-based semantic parsing approach (**SSP**) has four modules:
   - Ungrounded query generation
   - Entity linking
   - Candidate grounded query generation
   - Semantic matching
 
-run the provided SSP script as: 
+Note that the above four modules are correspond to the arguement `module` in `kbcqa/method_sp/sp_pipeline.py`.
+Run the provided SSP script as: 
 ```
 bash run_ssp_LCQ.sh
 bash run_ssp_GraphQ.sh
 bash run_ssp_CWQ.sh
 ```
 
-* Skeleton-based Information Retrieval approach (**SIR**) which has three modules:
+* Skeleton-based Information Retrieval approach (**SIR**) has three modules:
   - Node recogniztion and linking
   - Candidate grounded path generation
   - Semantic matching
 
 
-run the provided SIR script as: 
+Note that the above three modules are correspond to the arguement `module` in `kbcqa/method_ir/ir_pipeline.py`.
+Run the provided SIR script as: 
 ```
 bash run_sir_LCQ.sh
 bash run_sir_GraphQ.sh
