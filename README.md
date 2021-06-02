@@ -78,7 +78,9 @@ Note that download, unzip the zip file, and then copy it to the root folder.
 * Freebase [latest version](https://developers.google.com/freebase) for ComplexWebQuestions 1.1
 
 
-Note that download a [virtuoso server](http://vos.openlinksw.com/owiki/wiki/VOS) and load the above KBs. You only need to load a specific KB which is correspond to your KBQA dataset.
+Note that download a [virtuoso server](http://vos.openlinksw.com/owiki/wiki/VOS) and load the above KBs.
+
+You only need to load a specific KB which is correspond to your KBQA dataset.
 
 
 ## LC-QuAD 1.0 Resources
