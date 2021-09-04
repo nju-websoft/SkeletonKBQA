@@ -1,6 +1,5 @@
 # Skeleton bank from three complex KBQA datasets.
 
-
 <table>
     <tr>
         <th>File</th><th>Description</th>
